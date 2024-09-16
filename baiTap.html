@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="fname" style="margin-bottom: 10px; display: block">Name:</label>
+    <input
+      type="text"
+      id="fname"
+      name="fname"
+      style="margin-bottom: 10px; display: block"
+    /><br />
+
+    <label for="sex" style="margin-bottom: 10px; display: block">Sex:</label>
+    <input type="radio" id="male" name="fav_language" value="Male" />
+    <label for="male" style="margin-right: 10px">Male</label>
+
+    <input type="radio" id="female" name="fav_language" value="Female" />
+    <label for="female" style="margin-right: 10px">Female</label><br />
+
+    <label for="country" style="margin-bottom: 10px; display: block"
+      >Country:</label
+    >
+    <select
+      id="country"
+      name="country"
+      style="margin-bottom: 10px; display: block"
+    >
+      <option value="">Select an option</option>
+      <option value="vietnam">Vietnam</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="japan">Japan</option></select
+    ><br />
+
+    <label for="message" style="margin-bottom: 10px; display: block"
+      >Message:</label
+    >
+    <textarea
+      id="message"
+      name="message"
+      rows="4"
+      cols="50"
+      style="margin-bottom: 10px; display: block"
+    ></textarea
+    ><br />
+
+    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe" />
+    <label for="subscribe" style="margin-bottom: 10px"> Subscribe?</label><br />
+
+    <input type="submit" value="Submit" />
+  </body>
+</html>
