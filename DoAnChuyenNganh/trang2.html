@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-column">
+                <div class="logo">
+                    <img src="./logo.png" alt="Udemy Logo" class="logo-img">
+                   <h6> Udemy Inter School</h6>
+                </div>
+            </div>
+            <div class="sidebar-column">
+                <nav>
+                    <ul>
+                        <li>Dashboard</li>
+                        <li class="active">Teachers</li>
+                        <li>Students/classes</li>
+                        <li>Billing</li>
+                        <li>Settings and profile</li>
+                        <li>Exams</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="sidebar-column">
+                <div class="features">
+                    <ul>
+                        <li>Features <span class="new">NEW</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <div class="header-left"></div>
+                <div class="header-right">
+                    <div class="notification">
+                        <img src="./ThonngBao.png" alt="Notification" class="notification-icon">
+                    </div>
+                    <button class="logout-btn">Log out</button>
+                </div>
+            </header>
+
+            <div class="teachers-section">
+                <div class="teachers-title">Teachers</div>
+                <div class="action-buttons">
+                    <button class="export-btn">Export CSV</button>
+                    <button class="add-teachers-btn">Add Teachers</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="add-filter">
+                    <select id="filter-select">
+                        <option value="all">Add filter</option>
+                        <option value="active">Active</option>
+                        <option value="inactive">Inactive</option>
+                    </select>
+                </div>
+                <div class="search-bar-wrapper">
+                    <input type="text" class="search-bar" placeholder="Search for a student by name or email">
+                </div>
+            </div>
+
+            <div class="no-teachers">
+                <p>No Teachers at this time</p>
+                <p>Teachers will appear here after they enroll in your school.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
